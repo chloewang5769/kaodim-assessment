@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <h1>Vendor Form:</h1>
+
+      <form method="post" action="/vendor">
+        Email: <input type="text" name="email"/><br/><br/>
+        Date: <input type="date" name="date" />
+        <br/><br/>
+
+        Location: <select name="location">
+          <option value="Petaling Jaya">Petaling Jaya</option>
+          <option value="Subang Jaya">Subang Jaya</option>
+          <option value="Puchong">Puchong</option>
+          <option value="Mont Kiara">Mont Kiara</option>
+          <option value="Bukit Jalil">Bukit Jalil</option>
+          <option value="Kepong">Kepong</option>
+          <option value="Shah Alam">Shah Alam</option>
+          <option value="Cheras">Cheras</option>
+          <option value="Sentul">Sentul</option>
+          <option value="Setiawangsa">Setiawangsa</option>
+          <option value="TTDI">TTDI</option>
+        </select><br/><br/>
+
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
